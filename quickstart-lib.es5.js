@@ -10,8 +10,7 @@ var LibComponent = (function () {
 LibComponent.decorators = [
     { type: Component, args: [{
                 selector: 'my-lib',
-                template: "<h2>Hello {{name}}!!</h2> ",
-                styles: [""]
+                template: "<h2>Hello {{name}}!!</h2> "
             },] },
 ];
 /**
