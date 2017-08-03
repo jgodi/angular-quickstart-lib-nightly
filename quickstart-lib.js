@@ -3,12 +3,13 @@ import { Component, Injectable, NgModule } from '@angular/core';
 class LibComponent {
     constructor() {
         this.name = 'Angular Library';
+        console.log('HI');
     }
 }
 LibComponent.decorators = [
     { type: Component, args: [{
                 selector: 'my-lib',
-                template: "<h2>Hello {{name}}</h2> ",
+                template: "<h2>Hello {{name}}!!</h2> ",
                 styles: [""]
             },] },
 ];
